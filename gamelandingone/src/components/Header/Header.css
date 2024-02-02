@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap');
+
+:root{
+    --text-color:#FFFFFF;
+}
+.header{
+    padding:30px 130px 20px 76px;
+}
+.container{
+    width:100%;
+    height:55px;
+    margin:0;
+    padding:0;
+}
+.header__logo{
+    display:inline-block;
+    width:55px;
+    height:55px;
+}
+.header__row,.header__nav{
+    display:flex;
+    align-items: center;
+}
+.header__nav{
+    width:100%;
+    justify-content:space-between;
+}
+.header__nav ul{
+    display:flex;
+    column-gap: 39px;
+    justify-content:space-between;
+    align-items: center;
+    margin-left:79px;
+    padding:0;
+    position:relative;
+}
+.header__nav ul a{
+    text-decoration: none;
+    color:var(--text-color);
+    font-size: 16px;
+    font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0;
+    text-transform: none;
+}
+.header__nav ul li{
+    list-style: none;
+    &::after{
+        content: url("./../../img/icons/down-arrow.svg");
+        margin:5px 0 5px 4px;
+        width:12px;
+        height:9px;
+    }
+}
+.header__menu{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 66px;
+    margin-left:130px;
+}
+.header__menu_shop{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 39px;
+}
+.header__nav-btn{
+    box-sizing: border-box;
+    width:180px;
+    height:49px;
+    padding:15px 64px;
+    background-image:linear-gradient(-161deg,#D31027 2%,#EA384D 100%);
+    border-radius:100px;
+    border:2px solid #460008;
+}
+.header__nav-btn span{
+    display:block;
+    color:var(--text-color);
+    font-size: 16px;
+    font-style: normal;
+    font-family: "Inter",sans-serif;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0;
+    text-transform: none;
+    width:53px;
+    height:19px;
+}
