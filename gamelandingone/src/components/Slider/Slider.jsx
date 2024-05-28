@@ -1,7 +1,5 @@
-import './Slider.css';
+// import './Slider.css';
 // import './Slider.js';
-// import './../../owl.carousel.min.js';
-// import './../../styles/owl.carousel.min.css';
 import Card from './Card/Card.jsx';
 
 const Slider = () => {
