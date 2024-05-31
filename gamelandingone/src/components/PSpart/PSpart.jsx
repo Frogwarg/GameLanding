@@ -12,7 +12,7 @@ const PSpart = () => {
                     </div>
                     <button className="PSpart__btn"><p>Learn More</p></button>
                 </div>
-                <img src={PS} alt="" className="PSpart__image" />
+                <img src={PS} alt="консось нових пакаленя" className="PSpart__image" />
             </div>
         </div>
     );

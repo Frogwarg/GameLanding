@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+.Anounce{
+    max-width: 100%;
+    height:1043px;
+    position: relative;
+    padding: auto;
+}
+.Anounce_container{
+    height: 820px;
+    max-width: 100%;
+    background:linear-gradient(to right, #050716 30%, #1B3448 100%) !important;
+    z-index: 1;
+    display:flex;
+    overflow:hidden;
+    position: relative;
+}
+.Anounce__main{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:286px;
+    max-width:653px;
+    margin-left:133px;
+    margin-top:64px;
+    position: absolute;
+    z-index: 3;
+}
+.Anounce__title{
+    text-align:left;
+    vertical-align:text-top;
+    font-family:Inter;
+    width:640px;
+    text-wrap:wrap;
+    -webkit-text-fill-color:rgba(255, 255, 255, 0.80);
+}
+.Anounce__title_top{
+    font-size:41.34px;
+}
+.Anounce__title_bot{
+    font-size:66.25px;
+}
+.Anounce__subtitle{
+    display:inline-block;
+    margin-top:10px;
+    font-size:25.52px;
+    font-family:Inter;
+    text-wrap:wrap;
+    width:653px;
+    height:62px;
+    text-transform: capitalize;
+}
+.Anounce__btn{
+    width:180px;
+    height:47px;
+    border-radius: 100px;
+    background:linear-gradient(-19deg,#D31027 2%,#EA384D 100%);
+    outline: inset rgba(0, 0, 0, 0.21) 2px;
+    border:none;
+}
+.Anounce__btn>p{
+    font-size: 16px;
+    font-family:Inter;
+    color: #ffff;
+}
+.Anounce__img{
+    width:90%;
+    height:130%;
+    position: relative;
+    margin-left: auto;
+    margin-top:-10%;
+    z-index:2;
+    overflow:hidden;
+}
+.Advert_container{
+    position: absolute;
+    width:1180px;
+    height: 306px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    z-index:4;
+}

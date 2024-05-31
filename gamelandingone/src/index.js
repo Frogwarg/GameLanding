@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 // import 'jquery';
-import './styles/reset.css';
-import './fonts/fonts.css';
 import App from './App.js';
 
 // let $=require('jquery');
