@@ -1,0 +1,25 @@
+.Advert_Card{
+    width:388px;
+    height:287px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.Advert_Card__image_container,.Advert_Card__image{
+    width: 388px;
+    height: 246px;
+    border-radius: 9px;
+}
+.Advert_Card__image_container{
+    box-shadow: 0 15px 15px #000;
+}
+.Advert_Card__text{
+    color:#ffffff;
+    text-align:center;
+    vertical-align:text-top;
+    font-size:20px;
+    font-family:Inter;
+    text-wrap:balance;
+    margin-top:12px;
+}

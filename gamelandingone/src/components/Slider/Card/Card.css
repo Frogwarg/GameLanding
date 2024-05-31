@@ -2,6 +2,7 @@
     width:306px;
     height:407px;
     margin-top:53px;
+    cursor: pointer;
 }
 .card__image{
     width:100%;

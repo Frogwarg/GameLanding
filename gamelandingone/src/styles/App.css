@@ -5,3 +5,9 @@ body{
   background-color: #060215;
   color:#fff;
 }
+.header__search,.header__cart,.header__nav-btn,.header__logo,.promo__btn,.card__image,button,.Advert_Card__image_container,.Advert_Card__text{
+  cursor: pointer;
+}
+*::selection{
+  user-select: none;
+}
