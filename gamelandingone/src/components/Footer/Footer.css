@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+.footer{
+    height:290px;
+    background: #080122;
+    padding-top:66px;
+}
+.footer__container{
+    min-width:1200px;
+    height:142px;
+    margin-left:88px;
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+.footer_socials{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 162px;
+    height: fit-content;
+}
+.dop{
+    min-height:10% !important;
+}
+.footer__category_item,.footer_socials_item{
+    cursor: pointer;
+}
