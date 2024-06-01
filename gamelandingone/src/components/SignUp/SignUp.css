@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@400;500&display=swap');
+.SignUp{
+    max-width: 100%;
+    height:141px;
+    background: linear-gradient(-43deg,#EA384D 2%,#D31027 100%);
+}
+.SignUp__container{
+    max-width: 1630px;
+    max-height: 30px;
+    margin-left:133px;
+    transform: translate(0%, 150%);
+}
+.SignUp__text_container{
+    max-width: 284px;
+    align-items: center;
+    transform: translate(0%, 50%);
+}
+.SignUp__text{
+    text-align:left;
+    vertical-align:text-top;
+    font-size:24px;
+    font-family:Roboto;
+    width:231px;
+    margin-left:15px;
+}
+.SignUp__text_container,.SignUp__container{
+    position: relative;
+    display:flex;
+    justify-content: space-between;
+}
+.SignUp_input_container{
+    width:572px;
+    height:49px;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+.SignUp_input{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    border:none;
+    padding-left:20px;
+    z-index:1;
+}
+.SignUp_input::placeholder{
+    color:#cdcdcd;
+    text-align:left;
+    vertical-align:text-top;
+    font-size:15px;
+    font-family:Roboto;
+    width:108px;
+}
+.SignUp_input:focus{
+    outline: none;
+}
+.SignUp_input_btn{
+    position: relative;
+    width:114px;
+    height:36px;
+    border-radius: 5px;
+    background: linear-gradient(-16deg, #EA384D 2%, #D31027 100%);
+    z-index:2;
+    display:grid;
+    place-content: center;
+    margin-right:5px;
+}
+.SignUp_input_btn>p{
+    text-align:left;
+    vertical-align:text-top;
+    font-size:15px;
+    font-family:Poppins;
+    width:81px;
+}
